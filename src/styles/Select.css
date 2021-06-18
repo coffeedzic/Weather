@@ -1,0 +1,46 @@
+.select-city {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.select-city input {
+    width: 360px;
+	background: var(--white);
+	color: #a3a3a3;
+	font: inherit;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+	outline: 0;
+	padding: 22px 18px;
+}
+
+.select-city button {
+    display: inline-block;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+    background: var(--dark);
+	color: #fff;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+	border-radius: 2px;
+	padding: 12px 36px;
+    margin-left: -96px;
+}
+
+@media only screen and (max-width: 768px) {
+    .select-city input {
+		width: 100%;
+	}
+
+    .select-city button {
+        padding: 4px 8px;
+    }
+}
